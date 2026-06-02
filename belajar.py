@@ -36,19 +36,19 @@ while True:
     pilihan1 = int(input("Pilih nomor menu : "))
     if pilihan1 == 1:
         jeda()
-        nilai_celcius= int(input("Masukan besar nilai Celcius yang akan di konversi (0 - 100) : "))
+        nilai_celcius= float(input("Masukan besar nilai Celcius yang akan di konversi (0 - 100) : "))
         hasil_konversi= farenheit(nilai_celcius)
         print(hasil_konversi)
         jeda()
     elif pilihan1 == 2:
         jeda()
-        nilai_celcius= int(input("Masukan besar nilai Celcius yang akan di konversi (0 - 100) : "))
+        nilai_celcius= float(input("Masukan besar nilai Celcius yang akan di konversi (0 - 100) : "))
         hasil_konversi= reamur(nilai_celcius)
         print(hasil_konversi)
         jeda()
     elif pilihan1 == 3:
         jeda()
-        nilai_celcius = int(input("Masukan besar nilai Celcius yang akan di konversi (0 - 100) : "))
+        nilai_celcius = float(input("Masukan besar nilai Celcius yang akan di konversi (0 - 100) : "))
         hasil_konversi= kelvin(nilai_celcius)
         print(hasil_konversi) 
         jeda()
