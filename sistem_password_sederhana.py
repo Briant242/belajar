@@ -59,7 +59,7 @@ while True:
         print("Password setidaknya memiliki 1 angka dan terdiri dari 8 huruf atau lebih di dalamnya")
         continue
     elif len(input_password)<8 and not cek_symbol:
-        print("Password setidaknya memiliki 1 symbol dan terdiri dari 8 huruf atau lebih di dalamnya")
+        print("Password setidaknya memiliki 1 symbol dan terdiri dari 8 huruf atau lebiha di dalamnya")
     elif not cek_angka:
         print("Password setidaknya memiliki 1 angka di dalamnya")
         continue
